@@ -1,0 +1,16 @@
+td {
+    padding: 20px 24px;
+}
+
+table,
+tr {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background: #fea;
+}
+
+tr:nth-child(even) {
+    background: #badeba;
+}
