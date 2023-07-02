@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer((req, res) => {
-  const html = fs.readFileSync(path.resolve(__dirname, './index.html'));
-  res.setHeader('content-type', 'text/html;charset=utf-8')
+  const html = fs.readFileSync(path.resolve(__dirname, './page/index.html'));
+  res.setHeader('content-type', 'text/html;charset=utf-8');
   res.end(html);
 });
 
