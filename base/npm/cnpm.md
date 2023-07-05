@@ -7,3 +7,24 @@ cnpm 是一个淘宝构建的 npmjs.com 的完整镜像，也就是淘宝镜像�
 ```javascript
 npm i cnpm -g --registry=https://registry.npmmirror.com
 ```
+
+## 操作命令
+和 npm 大同小异
+### 初始化
+```
+cnpm init
+```
+
+### 安装
+```
+cnpm i <package>
+cnpm i -S <package> // 生产环境依赖
+cnpm i -D <package> // 开发环境依赖
+cnpm i -g <package> // 全局安装
+cnpm i // 安装项目依赖
+```
+
+### 删除依赖
+```
+cnpm r <package>
+```
