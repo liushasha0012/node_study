@@ -5,3 +5,4 @@
 - 安装依赖：`yarn`
 - 命令别名：`yarn start`，与 npm 不同的是，不需要加 run
 - 初始化：`yarn init`
+- 包管理工具不要混着用
